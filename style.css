@@ -1,0 +1,19 @@
+body {
+    background: #1C2C46; /*#3647AB;*/
+    color: white;;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+#container {
+    /*background: grey;*/
+    max-width: 100%;
+    text-align: center;
+}
+
+
+
+#icon {
+    font-size: 100px;
+    color: lightskyblue;
+}
