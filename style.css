@@ -18,6 +18,11 @@ body {
     color: white;
 }
 
-img {
-   
+input, button {
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: grey;
 }
+
