@@ -67,18 +67,18 @@ function createBackground(dataWeather) {
    let body = document.querySelector('body');
    let convert  = dataWeather.toString()
    if(convert >= 200 && convert <= 232) {
-        body.style.backgroundImage = 'url(../images/thunderstorm.jpg)';
+        body.style.backgroundImage = 'url(./images/thunderstorm.jpg)';
    } else if(convert >= 300 && convert <= 321) {
-        body.style.backgroundImage = 'url(../images/drizzle.jpg)';
+        body.style.backgroundImage = 'url(./images/drizzle.jpg)';
    } else if(convert >= 500 && convert <= 532) {
-        body.style.backgroundImage = 'url(../images/rain.jpg)';
+        body.style.backgroundImage = 'url(./images/rain.jpg)';
    } else if(convert >= 600 && convert <= 622) {
-        body.style.backgroundImage = 'url(../images/snow.jpg)';
+        body.style.backgroundImage = 'url(./images/snow.jpg)';
    } else if(convert >= 701 && convert <= 781) {
-        body.style.backgroundImage = 'url(../images/atmosphere.jpg)';
+        body.style.backgroundImage = 'url(./images/atmosphere.jpg)';
    } else if(convert == 800) {
-        body.style.backgroundImage = 'url(../images/sunny.jpg)';
+        body.style.backgroundImage = 'url(./images/sunny.jpg)';
    } else {
-        body.style.backgroundImage = 'url(../images/clouds.jpg)'
+        body.style.backgroundImage = 'url(./images/clouds.jpg)'
    }
 }
