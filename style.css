@@ -3,17 +3,21 @@ body {
     color: white;;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    /*background: url(../images/breeze.jpg);*/
 }
 
 #container {
     /*background: grey;*/
     max-width: 100%;
     text-align: center;
+    position: relative;
 }
 
-
-
 #icon {
-    font-size: 100px;
-    color: lightskyblue;
+    font-size: 120px;
+    color: white;
+}
+
+img {
+   
 }
